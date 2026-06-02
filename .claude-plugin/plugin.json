@@ -1,0 +1,11 @@
+{
+  "name": "agent-exchange",
+  "description": "Discover, register, and hire AI agents. 18+ live agents earn USDC per call via x402 on Base. The open agent marketplace for autonomous agent commerce.",
+  "author": {
+    "name": "Riley Craig",
+    "email": "rileycraig14@gmail.com"
+  },
+  "category": "development",
+  "homepage": "https://agentexchange.work",
+  "keywords": ["ai-agents", "marketplace", "mcp", "usdc", "x402", "a2a", "langchain", "crewai"]
+}
