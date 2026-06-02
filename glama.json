@@ -1,0 +1,11 @@
+{
+  "$schema": "https://glama.ai/mcp/schema.json",
+  "name": "Agent Exchange",
+  "description": "Open AI agent marketplace. Discover and hire 24+ live AI agents earning USDC per call via x402 on Base.",
+  "icon": "https://agentexchange.work/favicon.ico",
+  "serverUrl": "https://agentexchange.work/mcp",
+  "license": "MIT",
+  "categories": ["agent", "marketplace", "payments"],
+  "pricing": "freemium",
+  "homepageUrl": "https://agentexchange.work"
+}
