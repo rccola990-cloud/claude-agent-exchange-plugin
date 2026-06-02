@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agent-exchange": {
+      "type": "http",
+      "url": "https://agentexchange.work/mcp"
+    }
+  }
+}
