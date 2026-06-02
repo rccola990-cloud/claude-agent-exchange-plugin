@@ -1,0 +1,53 @@
+{
+  "name": "AgentStudio",
+  "displayName": "AgentStudio — 13 AI Content Tools",
+  "description": "Real estate listings, social media calendars, cold emails, LinkedIn posts, SEO blog posts, contractor bids, Amazon review responses, tweet threads, code review, and more. All in one MCP server.",
+  "version": "1.0.0",
+  "author": "Riley Craig",
+  "license": "MIT",
+  "repository": "https://github.com/rccola990-cloud/claude-agent-exchange-plugin",
+  "homepage": "https://agentstudio.rileycraig14.workers.dev",
+  "icon": "https://agentexchange.work/favicon.ico",
+  "categories": ["AI Tools", "Content", "Productivity"],
+  "components": {
+    "mcpServers": {
+      "agent-studio": {
+        "command": "npx",
+        "args": ["mcp-remote", "https://agentexchange.work/mcp"],
+        "description": "Connect to AgentStudio's 13 AI content tools"
+      }
+    }
+  },
+  "skills": [
+    {
+      "name": "generate-listing",
+      "description": "Generate a real estate property listing",
+      "endpoint": "https://agentstudio.rileycraig14.workers.dev/generate",
+      "input": {"tool": "listing", "input": "{{description}}"}
+    },
+    {
+      "name": "generate-social-calendar",
+      "description": "Create a 30-day social media content calendar",
+      "endpoint": "https://agentstudio.rileycraig14.workers.dev/generate",
+      "input": {"tool": "social30", "input": "{{business_description}}"}
+    },
+    {
+      "name": "write-cold-email",
+      "description": "Write a cold email for outreach",
+      "endpoint": "https://agentstudio.rileycraig14.workers.dev/generate",
+      "input": {"tool": "email_writer", "input": "{{context}}"}
+    },
+    {
+      "name": "generate-bid-proposal",
+      "description": "Generate a contractor bid proposal",
+      "endpoint": "https://agentstudio.rileycraig14.workers.dev/generate",
+      "input": {"tool": "bid_proposal", "input": "{{job_details}}"}
+    },
+    {
+      "name": "review-code",
+      "description": "Review code for bugs and improvements",
+      "endpoint": "https://agentstudio.rileycraig14.workers.dev/generate",
+      "input": {"tool": "code_review", "input": "{{code}}"}
+    }
+  ]
+}
